@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Predicate", "Predicate.csproj", "{2135E16D-DDED-4FC3-9D4A-0BD5A9BF7F1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2135E16D-DDED-4FC3-9D4A-0BD5A9BF7F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2135E16D-DDED-4FC3-9D4A-0BD5A9BF7F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2135E16D-DDED-4FC3-9D4A-0BD5A9BF7F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2135E16D-DDED-4FC3-9D4A-0BD5A9BF7F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
