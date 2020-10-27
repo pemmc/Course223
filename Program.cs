@@ -19,9 +19,9 @@ namespace Predicate
 
             //PREDICATO...
             //É uma função que recebe um objeto e retorna um bool
-            list.RemoveAll(p => p.Price >= 100.0);
+            list.RemoveAll(ProducTest);
 
-            //funciona tb
+            //funciona tb assim com a FUNCAO LAMBDA
             //list.RemoveAll(p => p.Price >= 100.0);
 
             Console.WriteLine("--- LISTA DE PRODUTOS COM VALORES ACIMA DE 100.0---");
@@ -30,6 +30,16 @@ namespace Predicate
                 Console.WriteLine(p);
 
             }
+
+            
+        }
+
+        //PREDICATE é uma função que recebe um objeto e retorna um bool
+        public static bool ProducTest(Products p)
+        {
+            //aqui tá a funcao lambda
+            return p.Price >= 100.0;
+
         }
 
     }
